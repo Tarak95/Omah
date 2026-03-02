@@ -1,0 +1,27 @@
+footer {
+    background: #203239;
+    padding: 31px 0px;
+}
+.footer_btm_item {
+    display: flex;
+    align-items: center;
+}
+.wlogo {
+    width: 20%;
+}
+.footerbtm_icon {
+    width: 80%;
+}
+.footerbtm_icon ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.footerbtm_icon ul li i {
+    font-size: 24px;
+    color: #fff;
+    margin-left: 70px;
+    transition: 0.4s;
+}
+.footerbtm_icon ul li i:hover{
+    color: #F6762E;
+}

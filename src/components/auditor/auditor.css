@@ -1,0 +1,45 @@
+#auditor {
+    padding: 68px 0px;
+}
+.auditor_title h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF7527;
+}
+.auditor_title h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    color: #203239;
+}
+.auditor_items {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+.auditor_item {
+    width: 350px;
+}
+.auditor_item_text h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #203239;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+.auditor_item_text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #203239;
+}

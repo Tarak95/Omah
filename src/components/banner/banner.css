@@ -1,0 +1,108 @@
+#banner {
+    background: #EEEDDE;
+    padding-bottom: 62px;
+}
+.banner_item {
+    display: flex;
+}
+.banner_left {
+    width: 765px;
+    margin-top: 62px;
+}
+.banner_img {
+    width: 375px;
+}
+.banner_text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 150%;
+    color: #203239;
+}
+.banner_text p {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 30px;
+	color: rgba(32, 50, 57, 0.55);
+	padding-top: 24px;
+	padding-right: 175px;
+}
+.banner_search {
+    position: relative;
+    margin-top: 56px;
+}
+.banner_search i {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    color: #203239;
+    font-size: 20px;
+    content: "";
+}
+.banner_search input {
+    width: 675px;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 56px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(32, 50, 57, 0.55);
+}
+.banner_search button {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+    background: #203239;
+    box-shadow: 0px 6px 8px rgba(32, 50, 57, 0.25);
+    font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    content: "";
+    transition: 0.4s;
+}
+.banner_search button:hover {
+    background: #FF7527;
+}
+.banner_counter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+    width: 590px;
+}
+.banner_counter_item {
+    width: 30%;
+}
+.banner_counter_item h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 150%;
+    color: #203239;
+}
+#plus {
+    color: #FF7527;
+}
+.banner_counter_item p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(32, 50, 57, 0.55);
+    padding-top: 5px;
+    padding-right: 30px;
+}
